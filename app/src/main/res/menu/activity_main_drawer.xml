@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_intervention"
+            android:icon="?attr/actionModePasteDrawable"
+            android:title="@string/menu_Intervention" />
+        <item
+            android:id="@+id/nav_assig_inter"
+            android:icon="@android:drawable/ic_menu_edit"
+            android:title="@string/menu_Intervention_a_assigner" />
+        <item
+            android:id="@+id/nav_message"
+            android:icon="@android:drawable/ic_dialog_email"
+            android:title="@string/menu_message" />
+        <item
+            android:id="@+id/nav_client"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="@string/menu_client" />
+        <item
+            android:id="@+id/nav_address"
+            android:icon="@android:drawable/ic_menu_myplaces"
+            android:title="@string/menu_address" />
+        <item
+        android:id="@+id/param"
+        android:icon="@android:drawable/ic_menu_manage"
+        android:title="@string/menu_parameter" />
+        <item
+            android:id="@+id/nav_propos"
+            android:icon="@android:drawable/ic_menu_help"
+            android:title="@string/menu_Propos"/>
+
+        <item
+            android:id="@+id/nav_deconnexion"
+            android:icon="@android:drawable/ic_secure"
+            android:title="@string/menu_Deconnexion" />
+
+    </group>
+</menu>
